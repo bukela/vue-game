@@ -2,7 +2,8 @@ new Vue({
   	el: '#app',
   	data: {
 		health: 100,
-		ended: false
+		ended: false,
+		seen: false
 	},
 	methods: {
 		punch: function() {

@@ -19,7 +19,10 @@
         <button v-on:click="punch" v-show="!ended">Punch</button>
         <h2 v-show="ended">WINNER :)</h2>
         <button v-on:click="restart">Restart</button>
-
+        
+            <p v-show="seen">Message Can Be Seen!</p>
+            <p><button class="btn btn-lg btn-primary" v-on:click="seen = !seen">Toggle</button></p>
+          
     </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/vue"></script>
